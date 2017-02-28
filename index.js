@@ -19,6 +19,10 @@ function bumpCounter() {
 
 function createAnimal(animalType) {
 	return function(deadlyDevice) {
-		return (`animalType: ${animalType}, deadlyDevice: ${deadlyDevice}`);
+		return { animalType, deadlyDevice };
 	}
 }
+
+var sharkCreator = createAnimal('Shark');
+var sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
+var sharkWithFrickinCannon = sharkCreator('Cannon');
