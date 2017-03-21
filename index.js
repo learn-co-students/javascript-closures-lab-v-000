@@ -1,8 +1,12 @@
 const app = "I don't do much."
 
 function bumpCounter() {
-  var counter = 0
-
+  let counter = 0
+  /*
+  Use `let` instead of `var` because `counter` should only be scoped to `bumpCounter()`.
+  Using `const` isn't an option either because `counter` needs to be updated
+  and `const` variables cannot be updated.
+  */
   function addBump(){
     counter += 1
   }
