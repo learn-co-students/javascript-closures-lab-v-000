@@ -1,6 +1,5 @@
 const app = "I don't do much."
 
-
 function bumpCounter() {
   let counter = 0;
 
@@ -23,6 +22,6 @@ function createAnimal(animalType) {
   }
 }
 
-var sharkCreator = createAnimal("Shark");
-var sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
-var sharkWithFrickinCannon = sharkCreator('Cannon');
+var sharkCreator = createAnimal('Shark');
+var sharkWithFrickinLaserbeam = sharkCreator('Laserbeam')
+var sharkWithFrickinCannon = sharkCreator('Cannon')
