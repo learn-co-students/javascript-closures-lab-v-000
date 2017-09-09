@@ -11,18 +11,18 @@ describe('closures', function() {
     });
 
     it('should return the `addBump()` and `getBumps()` function', () => {
-      const { addBump, getBumps } = bumpCounter();
+      const  addBump, getBumps  = bumpCounter();
       expect(addBump).toBeA('function');
       expect(getBumps).toBeA('function');
     });
 
     it('should return the counter when `getBumps()` is called', () => {
-      const { getBumps } = bumpCounter();
+      const  getBumps  = bumpCounter();
       expect(getBumps()).toBeA('number');
     });
 
     it('should increase the counter when `addBump()` is called', () => {
-      const { addBump, getBumps } = bumpCounter();
+      const  addBump, getBumps  = bumpCounter();
       expect(getBumps()).toEqual(0);
       addBump();
       expect(getBumps()).toEqual(1);
