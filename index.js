@@ -1,7 +1,5 @@
-const app = "I don't do much."
-
 function bumpCounter() {
-  var counter = 0
+  let counter = 0
 
   function addBump() {
     counter++
@@ -18,8 +16,8 @@ function bumpCounter() {
 }
 
 function createAnimal(animalType) {
-  return function innerCreateAnimal(deadlyDevice) {
-    return { animalType: [animalType], deadlyDevice: [deadlyDevice]}
+  return function(deadlyDevice) {
+    return { animalType, deadlyDevice }
   }
 }
 
