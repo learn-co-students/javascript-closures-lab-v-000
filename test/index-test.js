@@ -42,16 +42,6 @@ describe('closures', function() {
       expect(sharkCreator).toBeA('function');
     });
 
-    it('should have a `sharkWithFrickinLaserbeam` variable', () => {
-      expect(sharkWithFrickinLaserbeam).toBeA('object');
-      expect(sharkWithFrickinLaserbeam.animalType).toEqual('Shark');
-      expect(sharkWithFrickinLaserbeam.deadlyDevice).toEqual('Laserbeam');
-    });
 
-    it('should have a `sharkWithFrickinCannon` variable', () => {
-      expect(sharkWithFrickinCannon).toBeA('object');
-      expect(sharkWithFrickinCannon.animalType).toEqual('Shark');
-      expect(sharkWithFrickinCannon.deadlyDevice).toEqual('Cannon');
-    });
   });
 })
