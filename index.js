@@ -25,7 +25,7 @@ function createAnimal(animalType){
    }
 }
 
-let sharkCreator = createAnimal('shark') 
+let sharkCreator = createAnimal('shark')
 let sharkWithFrickinLaserbeam = sharkCreator('Laserbeam')
 let sharkWithFrickinCannon = sharkCreator('Cannon')
 }
