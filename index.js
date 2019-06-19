@@ -6,3 +6,11 @@ function bumpCounter(){
 function createAnimal(){
 
 }
+
+function sharkCreator(){
+  
+}
+
+function sharkWithFrickinCannon(){
+  
+}
