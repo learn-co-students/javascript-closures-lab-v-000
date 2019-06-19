@@ -14,7 +14,7 @@ function bumpCounter(){
 }
 
 function createAnimal(animalType){
-   function innerFunction(deadlyDevice){
+   return (deadlyDevice) => {
      return {
        animalType: animalType,
        deadlyDevice: deadlyDevice
