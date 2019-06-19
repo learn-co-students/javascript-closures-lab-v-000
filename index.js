@@ -7,6 +7,10 @@ function bumpCounter(){
   function getBumps(){
     counter
   }
+  return {
+    addBump,
+    getBumps
+  }
 }
 
 function createAnimal(){
