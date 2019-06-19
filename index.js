@@ -5,7 +5,7 @@ function bumpCounter(){
     counter++;
   }
   function getBumps(){
-    counter
+    return counter
   }
   return {
     addBump,
@@ -13,8 +13,16 @@ function bumpCounter(){
   }
 }
 
-function createAnimal(){
-
+function createAnimal(animalType){
+   function innerFunction(deadlyDevice){
+     return {
+       animalType: animalType,
+       deadlyDevice: deadlyDevice
+     }
+   }
+   return {
+     innerFunction
+   }
 }
 
 function sharkCreator(){
