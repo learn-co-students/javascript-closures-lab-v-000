@@ -1,3 +1,5 @@
+'use strict'; 
+
 describe('closures', function() {
   describe('Three point turn', function () {
     it('should have a `bumpCounter()` function', () => {
